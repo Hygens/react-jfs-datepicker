@@ -24,7 +24,7 @@ var _getTodayMixin = require('./getTodayMixin');
 
 var _getTodayMixin2 = _interopRequireDefault(_getTodayMixin);
 
-exports['default'] = _react2['default'].createClass({
+exports['default'] = _react2['default'].createFactory({
 	displayName: 'ReactDatePicker',
 
 	mixins: [_getTodayMixin2['default']],
@@ -134,7 +134,7 @@ var _getTodayMixin = require('./getTodayMixin');
 
 var _getTodayMixin2 = _interopRequireDefault(_getTodayMixin);
 
-exports['default'] = _react2['default'].createClass({
+exports['default'] = _react2['default'].createFactory({
     displayName: 'calendar',
 
     mixins: [_getTodayMixin2['default']],
@@ -276,7 +276,7 @@ var _react = (typeof window !== "undefined" ? window['React'] : typeof global !=
 
 var _react2 = _interopRequireDefault(_react);
 
-exports['default'] = _react2['default'].createClass({
+exports['default'] = _react2['default'].createFactory({
     displayName: 'selectMonth',
 
     propTypes: {
@@ -334,7 +334,7 @@ var _react = (typeof window !== "undefined" ? window['React'] : typeof global !=
 
 var _react2 = _interopRequireDefault(_react);
 
-exports['default'] = _react2['default'].createClass({
+exports['default'] = _react2['default'].createFactory({
     displayName: 'selectYear',
 
     propTypes: {
@@ -393,7 +393,7 @@ var _react = (typeof window !== "undefined" ? window['React'] : typeof global !=
 
 var _react2 = _interopRequireDefault(_react);
 
-exports['default'] = _react2['default'].createClass({
+exports['default'] = _react2['default'].createFactory({
     displayName: 'week',
 
     propTypes: {
@@ -462,7 +462,7 @@ var _week = require('./week');
 
 var _week2 = _interopRequireDefault(_week);
 
-exports['default'] = _react2['default'].createClass({
+exports['default'] = _react2['default'].createFactory({
 	displayName: 'weekDays',
 
 	propTypes: {

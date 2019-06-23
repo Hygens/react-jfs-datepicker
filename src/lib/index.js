@@ -1,2 +1,3 @@
+import React from 'react';
 import ReactDatePicker from "./react-date-picker-cs";
-export { ReactDatePicker };
+export default ReactDatePicker;
