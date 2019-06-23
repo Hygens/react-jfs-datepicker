@@ -6,6 +6,15 @@
   "files": [
     "dist"
   ],
+  "author": "Hygens Colt",
+  "homepage": "https://github.com/Hygens/react-jfs-datepicker",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Hygens/react-jfs-datepicker.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Hygens/react-jfs-datepicker/issues"
+  },
   "scripts": {
     "start": "react-scripts start",
     "build-examples": "react-scripts build",
